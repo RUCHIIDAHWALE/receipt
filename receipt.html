@@ -49,9 +49,15 @@
             margin: 40px 0 ;
         }
 
+        .receipt-body{
+            position: relative;
+            border-bottom: 1px dashed gray;
+            padding-bottom: 100px;
+        }
+
         .receipt-detail{
             display: flex;
-            justify-content: space-around;
+            justify-content: space-evenly;
             font-size: 20px;
             margin: 20px 0;
         }
@@ -68,6 +74,26 @@
 
         }
 
+        .accountant-signature{
+            text-align: right;
+            margin-top: 100px;
+
+        }
+
+        .stamp{
+            width: 100px;
+            position: absolute;
+            right: 0;
+            bottom: 20px;
+            transform: rotate(-30deg);
+        }
+
+        .recipt-footer{
+            text-align: center;
+            margin-top: 20px 0;
+            font-size: 20px;
+            background-color: #ffca39;
+        }
 
 
 
@@ -76,7 +102,7 @@
     </style>
 </head>
 <body>
-    <div class="recipt-container">
+<div class="recipt-container">
         <div class="recipt-header">
         <img src="./logo.png" class="brand-logo" />
         <h2 class="brand-title">Road to Code</h2>
@@ -89,61 +115,64 @@
         <p class="brand-mobile">
             +91-9763831383
         </p>
-    </div>
-
-
-
+</div>
 
 <div class="recipt-body">
     <h3 class="recipt-title">
-        Payment Recipt
+   Payment Recipt
     </h3>
 
 <div class="receipt-detail">
    <div class="receipt-detail-key">
    <div>
-        Receipt No:
+    Receipt No:
     </div>
  <div class="receipt-detail-value">
-      123456789
+ 123456789
 </div>
 
 <div class="receipt-detail">
-    <div class="receipt-detail-key">
-    <div>
-       Payment date:
-    </div>
-    <div class="receipt-detail-value">
-      20 feb 2024
-    </div>
-    
-    
-
-<div class="receipt-detail">
-    <div class="receipt-detail-key">
-    <div>
-       Amount:
-    </div>
-    <div class="receipt-detail-value">
-           4000/-
+<div class="receipt-detail-key">
+<div>
+   Payment date:
 </div>
-    
+
+<div class="receipt-detail-value">
+ 20 feb 2024
+</div>
 <div class="receipt-detail">
-  <div class="receipt-detail-key">
-   <div>
-        Amount Mode:
-   </div>
-   <div class="receipt-detail-value">
-       UPI
-   </div>
+ <div class="receipt-detail-key">
+<div>
+     Amount:
+</div>
+<div class="receipt-detail-value">
+  4000/-
+</div>
+
+<div class="receipt-detail">
+<div class="receipt-detail-key">
+    <div>
+     Amount Mode:
+</div>
+ <div class="receipt-detail-value">
+    UPI
+ </div>
 
 
+
+<p class="accountant-signature">
+ <img src="./stamp.jpeg" class="stamp"/>   
+  Accountant Signature
+   </p>
+</br>
+</br>
     
-    
-
+<p>
+    This is computer generated receipt and does not required any Signature.
+</p>
 
     <div class="recipt-footer">
-    
+        Thank you for your Payment.
     </div>
     
 </body>
