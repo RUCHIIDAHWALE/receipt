@@ -25,7 +25,7 @@
         }
 
         .brand-logo {
-            width: 100px;
+            max-width: 100px;
             display: block;
             margin: 0 auto;
         }
@@ -36,7 +36,6 @@
 
         .brand-address{
             text-align: right;
-
         }
 
         .brand-mobile{
@@ -71,7 +70,6 @@
             font-weight: bold;
             border-bottom: 1px dashed gray;
             width: 30%;
-
         }
 
         .accountant-signature{
@@ -95,85 +93,114 @@
             background-color: #ffca39;
         }
 
+        
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid #e4e4e4;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .brand-logo {
+        max-width: 100px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .brand-info {
+        text-align: right;
+    }
+
+    .brand-address,
+    .brand-mobile {
+        margin: 5px 0;
+    }
+
+        .main-content {
+        text-align: center;
+    }
+
+    .main-content h1 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+    }
+
+    
 
 
     
+
         
     </style>
 </head>
+
 <body>
-<div class="recipt-container">
-        <div class="recipt-header">
-        <img src="./logo.png" class="brand-logo" />
-        <h2 class="brand-title">Road to Code</h2>
+    <div class="container">
+        <header class="header">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="logo.png" alt="Brand Logo" class="brand-logo">
+            <div class="brand-info">
+                <p class="brand-address">404, Above Lotus Hospital, </br>
+                    shewalwadi, hadapsar</br>
+                    pune -412307.</p>
 
-        <p class="brand-address">
-           404, Above Lotus Hospital, </br>
-           shewalwadi, hadapsar</br>
-           pune -412307. 
+                </p>
+
+                <p class="brand-mobile">
+                    +91-9763831383
+                </p>
+
+            </div>
+        </header>
+        <main class="main-content">
+            <h1>Certificate of Achievement</h1>
+
+            <p>This certifies that</p>
+
+            <h2>DHAWALE RUCHITA</h2>
+            <p>has successfully completed the course</p>
+
+            <h3>Web Development</h3>
+
+            <p>on</p>
+
+            <h4>20 Feb, 2024</h4>
+
+            <p>Issued by</p>
+
+            <h3>ROAD TO CODE</h3>
+            <img src="logo.png" alt="Brand Logo" class="brand-logo">
+
+        </main>
+        <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <B>This is computer generated receipt and does not required any Signature.</B>
         </p>
-        <p class="brand-mobile">
-            +91-9763831383
-        </p>
-</div>
 
-<div class="recipt-body">
-    <h3 class="recipt-title">
-   Payment Recipt
-    </h3>
+        <div class="recipt-footer">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;
+            
+            <b>Thank you for your Payment.</b>
+        </div>
 
-<div class="receipt-detail">
-   <div class="receipt-detail-key">
-   <div>
-    Receipt No:
+        <footer class="footer">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>&copy;2024 ROAD TO CODE. All rights reserved.</span>
+        </footer>
     </div>
- <div class="receipt-detail-value">
- 123456789
-</div>
-
-<div class="receipt-detail">
-<div class="receipt-detail-key">
-<div>
-   Payment date:
-</div>
-
-<div class="receipt-detail-value">
- 20 feb 2024
-</div>
-<div class="receipt-detail">
- <div class="receipt-detail-key">
-<div>
-     Amount:
-</div>
-<div class="receipt-detail-value">
-  4000/-
-</div>
-
-<div class="receipt-detail">
-<div class="receipt-detail-key">
-    <div>
-     Amount Mode:
-</div>
- <div class="receipt-detail-value">
-    UPI
- </div>
-
-
-
-<p class="accountant-signature">
- <img src="./stamp.jpeg" class="stamp"/>   
-  Accountant Signature
-   </p>
-</br>
-</br>
-    
-<p>
-    This is computer generated receipt and does not required any Signature.
-</p>
-
-    <div class="recipt-footer">
-        Thank you for your Payment.
-    </div>
-    
 </body>
+
+
 </html>
